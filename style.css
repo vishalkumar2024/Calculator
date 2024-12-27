@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    height:100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(127, 213, 213), rgb(86, 209, 133),
+            rgb(122, 144, 204), rgb(52, 141, 92));
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head_container {
+    height: 650px;
+    width: 320px;
+}
+
+h1 {
+    text-decoration: underline;
+    border-radius: 5px;
+    color: #1c8631;
+    text-shadow: 2px 2px 10px rgb(255, 123, 0);
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.calculator {
+    width: 100%;
+    background-color: #242b35;
+    border-radius: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(23, 16, 16);
+    margin-top: 50px;
+}
+
+
+input {
+    /* border: 0px;
+    outline: 0px;    <----- These are optional
+     */
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    font: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 9px;
+
+}
+
+form #inputText {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+form #inputText input {
+    width: 95%;
+    height: 60px;
+    text-align: right;
+    flex: 1;
+    font-size: 40px;
+    box-shadow: none;
+    margin-right: 10px;
+    padding: 5px;
+
+}
+#last{
+    margin-bottom:20px;
+}
+
+.equal {
+    width: 120px;
+    color: rgb(255, 255, 0);
+}
+
+.operator {
+    color: rgb(0, 183, 203);
+}
